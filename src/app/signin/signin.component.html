@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-form">
+            <h1>Sign In</h1>
+            <mat-form-field class="form-username">
+                <input matInput placeholder="Enter the Email / Phones" #name>
+            </mat-form-field><br>
+            <mat-form-field class="form-password">
+                <input matInput placeholder="Enter the Password" #pass>
+            </mat-form-field><br>
+            <button class="login" (click)="verifyuser(name.value,pass.value)">Login</button>
+        </div>     
+</body>
+</html>

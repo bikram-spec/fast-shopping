@@ -1,0 +1,83 @@
+.cmpname{
+    padding-left:150px;
+    font-family:'Times New Roman';
+    font-style: italic;
+    font-size: 30px;
+    padding-top:0px;
+} 
+.title{
+    position: relative;
+    font-family:'Times New Roman';
+    font-size: 25px;
+    font-style:italic;
+    padding-top:3px;
+    padding-left: 210px;
+}
+h1{
+    position: relative;
+    padding-top:0px;
+
+}
+.signup{
+    border: none;
+    padding-left:15px;
+    background-color: white;
+    position: relative;
+    max-width:530px;
+    max-height: 605px;
+    border-radius:7px;
+    width:100%;
+    height:100%
+}
+.first-name{
+    position: relative;
+    padding-left: 3px;
+    padding-top:15px;
+    
+}
+.last-name{
+    position: relative;
+    padding-left:70px;
+    padding-top:15px;
+}
+.Address{
+    min-width: 150px;
+    max-width: 500px;
+    width:100%;
+}
+.email{
+    min-width: 150px;
+    max-width:500px;
+    width:100%;
+}
+.phone{
+    min-width: 150px;
+    max-width: 300px;
+    width:100%;
+}
+.password{
+    min-width: 150px;
+    max-width: 300px;
+    width:100%;
+}
+.confirm-password{
+    min-width: 150px;
+    max-width: 300px;
+    width:100%;
+}
+button{
+    color:black;
+    background-color: coral;
+    border-radius: 5px;
+    font-size:18px;
+    font-style:bold;
+    font-style: italic;
+    width:300px;
+    height:50px;
+}
+body{
+    background-color: lightblue;
+    position: relative;
+    padding-left:450px;
+    padding-top:0.5px;
+}
